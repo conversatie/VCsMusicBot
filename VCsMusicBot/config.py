@@ -8,8 +8,8 @@ if os.path.exists("local.env"):
 
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("1842527431:AAHzfatT8Lpa-t00tghEHnpPzpzCwL0xDNI")
-BOT_NAME = getenv("Durex")
+BOT_TOKEN = getenv("BOT_TOKEN", 1842527431:AAHzfatT8Lpa-t00tghEHnpPzpzCwL0xDNI")
+BOT_NAME = getenv("BOT_NAME", Durex")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "tgbotproject")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cf19dda907391656338eb.png")
 admins = {}
